@@ -14,9 +14,8 @@ with col1:
 with col2:
     st.title("Katie Janzen")
     content = """
-    Hello, I'm Katie and I code in Python, JavaScript, Java and C. I am currently 
-    studying web development and application development at BCIT.  I'm currently 
-    based in Vancouver, BC.
+    Hello, I'm Katie and I code in Python, JavaScript, Java and C. I live in
+    Vancouver, BC and I'm studying web development and app development at BCIT.
     """
     st.info(content)
 
