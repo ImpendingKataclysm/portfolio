@@ -6,10 +6,10 @@ st.set_page_config(layout="wide")
 DATA_FILE = "data.csv"
 IMAGE_FOLDER = "images/"
 
-col1, col2 = st.columns(2)
+col1, empty_col, col2 = st.columns([1.5, 0.5, 1.5])
 
 with col1:
-    st.image(f"{IMAGE_FOLDER}photo.png", width=500)
+    st.image(f"{IMAGE_FOLDER}photo.png")
 
 with col2:
     st.title("Katie Janzen")
