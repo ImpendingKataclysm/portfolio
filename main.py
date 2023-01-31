@@ -4,11 +4,12 @@ import pandas
 st.set_page_config(layout="wide")
 
 DATA_FILE = "data.csv"
+IMAGE_FOLDER = "images/"
 
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/photo.png", width=500)
+    st.image(f"{IMAGE_FOLDER}photo.png", width=500)
 
 with col2:
     st.title("Katie Janzen")
@@ -24,13 +25,23 @@ Below are some of the apps I have built in Python. Feel free to contact me!
 """
 st.write(message)
 
-col3, col4 = st.columns(2)
+col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 df = pandas.read_csv(DATA_FILE, sep=";")
 
+with open(DATA_FILE) as file:
+    data = file.readlines()
+
+mid_index = int(len(data) / 2)
+
 with col3:
-    for index, row in df[:10].iterrows():
+    for index, row in df[:mid_index].iterrows():
         st.header(row["title"])
+        st.write(row["description"])
+        st.image(IMAGE_FOLDER + row["image"])
+        st.write(f"[Source Code]({row['url']})")
 
 with col4:
-    for index, row in df[10:].iterrows():
+    for index, row in df[mid_index:].iterrows():
         st.header(row["title"])
+        st.write(row["description"])
+        st.image(IMAGE_FOLDER + row["image"])
