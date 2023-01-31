@@ -34,13 +34,13 @@ mid_index = int(len(data) / 2)
 
 with col3:
     for index, row in df[:mid_index].iterrows():
-        st.header(row["title"])
+        st.subheader(row["title"])
         st.write(row["description"])
         st.image(IMAGE_FOLDER + row["image"])
         st.write(f"[Source Code]({row['url']})")
 
 with col4:
     for index, row in df[mid_index:].iterrows():
-        st.header(row["title"])
+        st.subheader(row["title"])
         st.write(row["description"])
         st.image(IMAGE_FOLDER + row["image"])
