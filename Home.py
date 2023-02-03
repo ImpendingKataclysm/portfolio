@@ -44,3 +44,4 @@ with col4:
         st.subheader(row["title"])
         st.write(row["description"])
         st.image(IMAGE_FOLDER + row["image"])
+        st.write(f"[Source Code]({row['url']})")
