@@ -3,3 +3,4 @@ Todo App;A distraction-free web app to help you focus on creating and completing
 Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/ImpendingKataclysm/portfolio;2.png
 PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://github.com/ImpendingKataclysm/pdf_generator;3.png
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/ImpendingKataclysm/invoice_generator;4.png
+Email News App;Gets news from a rest api and sends email updates.;https://github.com/ImpendingKataclysm/news_api_email;5.png
