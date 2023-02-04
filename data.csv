@@ -4,3 +4,4 @@ Portfolio Website;A website built entirely in Python to showcase coding projects
 PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://github.com/ImpendingKataclysm/pdf_generator;3.png
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/ImpendingKataclysm/invoice_generator;4.png
 Email News App;Gets news from a rest api and sends email updates.;https://github.com/ImpendingKataclysm/news_api_email;5.png
+Astronomy Picture of the Day;Simple web app that shows NASA's astronomy picture of the day;https://github.com/ImpendingKataclysm/apod_api_webpage;apod.jpg
