@@ -47,5 +47,5 @@ with col4:
         st.write(row["description"])
         st.image(IMAGE_FOLDER + row["image"])
         st.write(f"[Source Code]({row['url']})")
-        if row["live_url"]:
+        if row["live_url"] != 'None':
             st.write(f"[View Live]({row['live_url']})")
