@@ -38,6 +38,8 @@ with col3:
         st.write(row["description"])
         st.image(IMAGE_FOLDER + row["image"])
         st.write(f"[Source Code]({row['url']})")
+        if row["live_url"]:
+            st.write(f"[View Live]({row['live_url']})")
 
 with col4:
     for index, row in df[mid_index:].iterrows():
@@ -45,3 +47,5 @@ with col4:
         st.write(row["description"])
         st.image(IMAGE_FOLDER + row["image"])
         st.write(f"[Source Code]({row['url']})")
+        if row["live_url"]:
+            st.write(f"[View Live]({row['live_url']})")
