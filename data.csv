@@ -5,5 +5,5 @@ PDF Templates;A script that generates PDF templates of multiple pages given some
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/ImpendingKataclysm/invoice_generator;4.png;None
 Email News App;Gets news from a rest api and sends email updates.;https://github.com/ImpendingKataclysm/news_api_email;5.png;None
 Astronomy Picture of the Day;Simple web app that shows NASA's astronomy picture of the day;https://github.com/ImpendingKataclysm/apod_api_webpage;apod.jpg;None
-Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/ImpendingKataclysm/historical_weather_api;6.png;None
+Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/ImpendingKataclysm/historical_weather_api;6.png;https://impendingkataclysm-apod-api-webpage-home-cdkik6.streamlit.app/
 Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://github.com/ImpendingKataclysm/weather_forecast_web_app;16.png;None
