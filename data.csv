@@ -1,9 +1,9 @@
 title;description;url;image;live_url
 Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://github.com/ImpendingKataclysm/To-Do-List-Web-App;1.png;https://impendingkataclysm-to-do-list-web-app-web-feirr1.streamlit.app/
-Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/ImpendingKataclysm/portfolio;2.png;False
-PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://github.com/ImpendingKataclysm/pdf_generator;3.png;False
-PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/ImpendingKataclysm/invoice_generator;4.png;False
-Email News App;Gets news from a rest api and sends email updates.;https://github.com/ImpendingKataclysm/news_api_email;5.png;False
-Astronomy Picture of the Day;Simple web app that shows NASA's astronomy picture of the day;https://github.com/ImpendingKataclysm/apod_api_webpage;apod.jpg;False
-Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/ImpendingKataclysm/historical_weather_api;6.png;False
-Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://github.com/ImpendingKataclysm/weather_forecast_web_app;16.png;False
+Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/ImpendingKataclysm/portfolio;2.png;None
+PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://github.com/ImpendingKataclysm/pdf_generator;3.png;None
+PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/ImpendingKataclysm/invoice_generator;4.png;Nonee
+Email News App;Gets news from a rest api and sends email updates.;https://github.com/ImpendingKataclysm/news_api_email;5.png;None
+Astronomy Picture of the Day;Simple web app that shows NASA's astronomy picture of the day;https://github.com/ImpendingKataclysm/apod_api_webpage;apod.jpg;None
+Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/ImpendingKataclysm/historical_weather_api;6.png;None
+Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://github.com/ImpendingKataclysm/weather_forecast_web_app;16.png;None
