@@ -1,6 +1,6 @@
 import smtplib
 import ssl
-import os
+import streamlit as st
 
 
 def send_email(message):
@@ -9,10 +9,10 @@ def send_email(message):
     # standard port number
     port = 465
 
-    username = "ktjanzen42@gmail.com"
-    password = os.getenv("GOOGLE_APP_PASSWORD")
+    username = st.secrets["username"]
+    password = st.secrets["password"]
 
-    receiver = "ktjanzen42@gmail.com"
+    receiver = st.secrets["receiver"]
     context = ssl.create_default_context()
 
     with smtplib.SMTP_SSL(host, port, context=context) as server:
