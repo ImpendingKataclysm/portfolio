@@ -12,4 +12,4 @@ Webcam Motion Detector;A program that monitors the computer webcam and sends an 
 Tour Scraper;A program that checks a music band's website and sends an email when there are new tours.;https://github.com/ImpendingKataclysm/music_tour_scraper;8.png;None
 Hotel Booking System;A program that enables customers to book hotel reservations;https://github.com/ImpendingKataclysm/hotel_booking_system;hotel.jpg;None
 Student Management System (SQLite Version);A desktop PyQt6 GUI app for managing university student data with an SQLite database backend.;https://github.com/ImpendingKataclysm/student_management_system;17.png;None
-Student Management System (MySQL Version;A desktop PyQt6 GUI app for managing university student data with a MySQL database backend.;https://github.com/ImpendingKataclysm/student_management_system_mysql;17.png;None
+Student Management System (MySQL Version;A desktop PyQt6 GUI app for managing university student data with a MySQL database backend.;https://github.com/ImpendingKataclysm/student_mgmt_system_mysql;17.png;None
