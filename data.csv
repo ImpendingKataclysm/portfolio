@@ -13,3 +13,4 @@ Tour Scraper;A program that checks a music band's website and sends an email whe
 Hotel Booking System;A program that enables customers to book hotel reservations;https://github.com/ImpendingKataclysm/hotel_booking_system;hotel.jpg;None
 Student Management System (SQLite Version);A desktop PyQt6 GUI app for managing university student data with an SQLite database backend.;https://github.com/ImpendingKataclysm/student_management_system;17.png;None
 Student Management System (MySQL Version);A desktop PyQt6 GUI app for managing university student data with a MySQL database backend.;https://github.com/ImpendingKataclysm/student_mgmt_system_mysql;17.png;None
+Open Domain Chatbot;A chatbot that can discuss anything with a human and is built using the OpenAI API.;https://github.com/ImpendingKataclysm/open_domain_chatbot;10.png;None
