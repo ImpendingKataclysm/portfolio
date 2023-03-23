@@ -4,6 +4,12 @@ import streamlit as st
 
 
 def send_email(message):
+    """
+    Sends a message entered by the user to a designated email address
+    :param message: The message entered by the user that will become the email
+    message body
+    :return: None
+    """
     # standard host name
     host = "smtp.gmail.com"
     # standard port number
